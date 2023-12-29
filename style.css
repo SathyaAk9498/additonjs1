@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+background: linear-gradient(0deg, rgba(253,45,122,1) 0%, rgba(203,219,219,1) 52%);
+background-attachment: fixed;
+
+}
+.formss{
+    width: 320px;
+    height: 310px;
+    border: 1px solid red;
+    justify-content: center;
+    margin-left: 35%;
+    margin-top: 10%;
+    padding: 15px;
+    margin-bottom: 2%;
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+#gr{
+    border: 5px solid red;
+    height: 200px;
+}
+.ones{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 5px solid green;
+}
+.right{
+    border: 3px solid red;
+}
+.left{
+    border: 3px solid red;
+}
